@@ -111,7 +111,7 @@ body{
 /*-----------------------*/
 
 #carouselExampleControls{
-  top:-54px;
+  top:-65px;
   margin: 1% 1%;
   width: 95%;
   margin: auto auto;
@@ -177,7 +177,7 @@ body{
 
 #content #area1{
   background: #ffffff;
-  min-height: 750px;
+  min-height: 850px;
   border-radius: 10px;
   width: 62%;
   float: left;
@@ -328,6 +328,11 @@ body{
   overflow:hidden;
 }
 
+#wholepage{
+  min-height: 1000px;
+  overflow: auto;
+}
+
 /*---------------------------------*/
 /*differernt screen sizes*/
 
@@ -339,23 +344,33 @@ body{
     #carouselExampleControls{
       width: 98%;
       margin: 0% 1%;
-      top: -70px;
+      top: -100px;
     }
 
     #content #area1{
       margin: 0px 0px;
       width: 58%;
       margin: 1% 1%;
+      top: -100px;
     }
     
     #content #area2{
       margin: 0px 0px;
       width: 38%;
       margin: 1% 1%;
+      top: -100px;
     }
 
 
 }
+
+@media only screen 
+and (min-width : 1407px) {
+  #navbar{
+    top: -70px;
+  }
+}
+
 
 @media only screen 
 and (min-width : 2010px) {
