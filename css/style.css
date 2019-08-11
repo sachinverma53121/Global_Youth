@@ -68,7 +68,8 @@ body{
 /*----------------------------*/
 #navbar{
   position: relative;
-    top: -55px;
+  top: -100px;
+  margin: 0 10%;
 }
 
 #navbar ul { 
@@ -80,6 +81,7 @@ body{
  
 #navbar ul li {  
   display: inline-block; 
+  margin: 4px 0;
   } 
 
 #navbar #active-tab{
