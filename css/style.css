@@ -337,6 +337,10 @@ body{
 /*differernt screen sizes*/
 
 @media (orientation: portrait) {
+    #html{
+      zoom: 120%;
+    }
+
     #content{
       margin: 0px 0px;
     }
