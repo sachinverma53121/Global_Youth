@@ -132,6 +132,7 @@ body{
   border: none;
   overflow: hidden;
   border-radius: 3px;
+  padding-top: 10px;
   color: #ffffff; 
   background-color: #d65858; 
 }
