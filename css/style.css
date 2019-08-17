@@ -324,6 +324,14 @@ body{
   margin-left: 1%;
 }
 
+#content #area2 #twit{
+  height: 550px;
+  width: 100%;
+  overflow: auto;
+  padding: 5px;
+  margin: 10px 2px;
+}
+
 #content #area2 #fb-post{
   border:none;
   overflow:hidden;
