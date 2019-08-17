@@ -180,7 +180,7 @@ body{
   background: #ffffff;
   min-height: 850px;
   border-radius: 10px;
-  width: 62%;
+  width: 70%;
   float: left;
   font-size: 20px;
   overflow: hidden;
@@ -315,7 +315,7 @@ body{
 #content #area2{
   background: #ffffff;
   border-radius: 10px;
-  width: 35%;
+  width: 27%;
   max-width: 510px;
   float: left;
   overflow: hidden;
@@ -332,22 +332,18 @@ body{
   margin: 10px 2px;
 }
 
-#fb{
-  width: 500px;
-}
-
-#fb iframe{
-  border:none;
-  overflow:hidden
-}
 
 #content #area2 #fb-post{
   border:none;
-  overflow:hidden; 
   width:100%; 
   height:450px; 
   background: white; 
   float:left; 
+}
+
+#fb-post iframe{
+  margin: 0 auto;
+  overflow:hidden; 
 }
 
 #wholepage{
@@ -372,14 +368,14 @@ body{
 
     #content #area1{
       margin: 0px 0px;
-      width: 58%;
+      width: 66%;
       margin: 1% 1%;
       top: -100px;
     }
     
     #content #area2{
       margin: 0px 0px;
-      width: 38%;
+      width: 30%;
       margin: 1% 1%;
       top: -100px;
     }
@@ -394,20 +390,49 @@ and (min-width : 1476px) {
   }
 }
 
-
 @media only screen 
-and (min-width : 2010px) {
+and (min-width : 1680px) {
     
     #content #area1{
-      width: 80%;
+      width: 76%;
       min-height: 1000px;
     }
 
     #content #area2{
-      width: 18%;
+      width: 22%;
     }
 
 }    
+
+
+@media only screen 
+and (min-width : 1800px) {
+    
+    #content #area1{
+      width: 78%;
+      min-height: 1000px;
+    }
+
+    #content #area2{
+      width: 20%;
+    }
+
+}   
+
+
+@media only screen 
+and (min-width : 2150) {
+    
+    #content #area1{
+      width: 82%;
+      min-height: 1000px;
+    }
+
+    #content #area2{
+      width: 16%;
+    }
+
+}     
 
 
 
