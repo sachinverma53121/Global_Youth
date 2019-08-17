@@ -336,6 +336,11 @@ body{
   width: 500px;
 }
 
+#fb iframe{
+  border:none;
+  overflow:hidden
+}
+
 #content #area2 #fb-post{
   border:none;
   overflow:hidden; 
