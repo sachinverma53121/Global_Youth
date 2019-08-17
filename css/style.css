@@ -1,4 +1,7 @@
 
+html{
+  zoom: 85%;
+}
 body{
   background-color: #c2bf61;
   background-image: url("https://www.transparenttextures.com/patterns/my-little-plaid-dark.png");
@@ -351,9 +354,6 @@ body{
 /*differernt screen sizes*/
 
 @media (orientation: portrait) {
-    #html{
-      zoom: 80%;
-    }
 
     #content{
       margin: 0px 0px;
