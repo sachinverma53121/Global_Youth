@@ -30,6 +30,7 @@ body{
 #img-front img{
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 
@@ -52,6 +53,7 @@ body{
 #img-rear img{
   width: 100%;
   height: 80%;
+  object-fit: cover;
   margin-top: 20%;
 }
 
